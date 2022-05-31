@@ -1,13 +1,13 @@
 import React from 'react'
 import './card.css'
 
-const Card = ({HeartEmoji, heading, detail}) => {
+const Card = ({emoji, heading, detail}) => {
   return (
-      <div className='card'>
-          <img src={HeartEmoji} alt="" />
-          <span>{heading}</span>
-          <span>{detail}</span>
-      </div>
+    <div className='card'>
+        <img src={emoji} alt="" />
+        <span>{heading}</span>
+        <span>{detail}</span>
+    </div>
   )
 }
 
