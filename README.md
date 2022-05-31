@@ -1,2 +1,2 @@
 # responsive-portfolio
-In this Reactjs project, we will make an awesome responsive personal portfolio website step-by-step. We learn React hooks, modern CSS, swiper js, framer motion, and many more. For contact, we will use the Email js library. To make this site more functional and practical, we will implement dark and light mode with the useContext hook.
+A responsive personal portfolio website. Using React hooks, modern CSS, swiper js, framer motion, and many more. For contact, we will use the Email js library. To make this site more functional and practical, we will implement dark and light mode with the useContext hook.
