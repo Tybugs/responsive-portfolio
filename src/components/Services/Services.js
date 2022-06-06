@@ -24,17 +24,19 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Let's Work</span>
+        <span>Together</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+            Passionate about helping and solving business problems 
           <br />
-          ispum is simpley dummy text of printing
+            through fast and scalable design with exceptional user experience.
+          <br />
+            Curios by nature and business-minded.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
-        <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
+        <div className="blur s-blur1" style={{ background: "#ABF1FF94"}}></div>
       </div>
       {/* right */}
       <div className="cards">
@@ -47,7 +49,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            detail={"Figma, Uizard, Sketch"}
           />
         </motion.div>
         {/* second card */}
@@ -59,7 +61,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            detail={"JavaScript, MongoDB, Express, React, Node, Redux, Axios, MUI"}
           />
         </motion.div>
         {/* 3rd */}
@@ -72,7 +74,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              ""
             }
             color="rgba(252, 166, 31, 0.45)"
           />
