@@ -74,5 +74,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
 A responsive personal portfolio website. Using React hooks, modern CSS, swiper js, framer motion, and many more. For contact, we will use the Email js library. To make this site more functional and practical, we will implement dark and light mode with the useContext hook.
->>>>>>> ae03c44c43a760df503c32aea68d3b32b761d6d6
->>>>>>> 54b50e240bbc9d7c54c9862f8db39354b8ee40f1
+
+c
