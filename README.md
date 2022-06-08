@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+A responsive personal portfolio website. Using React hooks, modern CSS, swiper js, framer motion, and many more. For contact, we will use the Email js library. To make this site more functional and practical, we will implement dark and light mode with the useContext hook.
+>>>>>>> ae03c44c43a760df503c32aea68d3b32b761d6d6
