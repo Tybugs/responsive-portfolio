@@ -10,6 +10,7 @@ import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import Instagram from "../../img/instagram.png";
+import Deym from "../../img/deym.jpg";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -26,15 +27,14 @@ const Intro = () => {
       {/* left name side */}
       <div className="i-left">
         <div className="i-name">
-          {/* yahan change hy darkmode ka */}
+          { /* darkmode  */}
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
           <span>Marty Pabello</span>
           <span>
             Frontend Developer with high level of experience in web designing
-            and development conceptualizing digital products, 
-            helping businesses and non-profits expand their capacity for impact. Working in product 
+            and development, helping businesses and non-profits expand their capacity for impact. Working in product 
             strategys facilitation and prototyping with a solid background in interface
-            design and front end development
+            design and front end development.
 
           </span>
         </div>

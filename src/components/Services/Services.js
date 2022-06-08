@@ -61,7 +61,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"JavaScript, MongoDB, Express, React, Node, Redux, Axios, MUI"}
+            detail={"JavaScript, MongoDB, Express, React, Node, Redux, Axios, JsonWebToken, API Request, MUI"}
           />
         </motion.div>
         {/* 3rd */}
@@ -74,7 +74,7 @@ const Services = () => {
             emoji={Humble}
             heading={"UI/UX"}
             detail={
-              ""
+              "Plesant-looking, functional and give users a fantastic experience in terms of performance and navigation"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

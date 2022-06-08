@@ -21,18 +21,16 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+            Essentials Tools for
           </span>
-          <span>Brands & Clients</span>
+          <span>Web Development</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            The power of highly tested libraries to improve our workflow and
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            benefit from greater possibilities when it comes to responsive design
             <br />
-            y dummy text of printingLorem
+            features to create a more attractive web design layout.
             <br />
-            ispum is simpley dummy text of printing
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
