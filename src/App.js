@@ -1,4 +1,16 @@
 import Navbar from "./components/Navbar/Navbar";
+<<<<<<< HEAD
+import Intro from "./components/Intro/Intro"
+import Services from "./components/Services/Services";
+import './App.css'
+
+function App() {
+  return (
+    <div className="App">
+     <Navbar />
+     <Intro />
+     <Services />
+=======
 import Intro from "./components/Intro/Intro";
 import Services from "./components/Services/Services";
 import "./App.css";
@@ -30,6 +42,7 @@ function App() {
       <Testimonial />
       <Contact />
       <Footer />
+>>>>>>> ae03c44c43a760df503c32aea68d3b32b761d6d6
     </div>
   );
 }
