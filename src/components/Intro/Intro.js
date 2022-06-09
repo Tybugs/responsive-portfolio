@@ -1,8 +1,6 @@
 import React, { useContext } from "react";
-import "./Intro.css";
-import Vector1 from "../../img/Vector1.png";
-import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+import "./intro.css";
+import Avatar from "../../img/avatar.svg";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -49,9 +47,9 @@ const Intro = () => {
       </div>
       {/* right image side */}
       <div className="i-right">
-        <img src={Vector1} alt="" />
-        <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        <img src={''} alt="" />
+        <img src={''} alt="" />
+        <img src={Avatar} alt="" />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
@@ -63,7 +61,7 @@ const Intro = () => {
 
         <motion.div
           initial={{ top: "-4%", left: "74%" }}
-          whileInView={{ left: "68%" }}
+          whileInView={{ left: "69%" }}
           transition={transition}
           className="floating-div"
         >
@@ -72,7 +70,7 @@ const Intro = () => {
 
         {/* animation */}
         <motion.div
-          initial={{ left: "9rem", top: "18rem" }}
+          initial={{ left: "9rem", top: "15rem" }}
           whileInView={{ left: "0rem" }}
           transition={transition}
           className="floating-div"
