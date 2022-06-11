@@ -1,9 +1,12 @@
 import React, { useContext } from "react";
 import "./services.css";
 import Card from "../Card/Card";
-import HeartEmoji from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
+import Developer from "../../img/developer.png";
+import Design from "../../img/designs.png";
+import UI from "../../img/ui-ux.png";
+// import HeartEmoji from "../../img/heartemoji.png";
+// import Glasses from "../../img/glasses.png";
+// import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
@@ -47,7 +50,7 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={HeartEmoji}
+            emoji={Design}
             heading={"Design"}
             detail={"Figma, Uizard, Sketch"}
             color="rgba(252, 166, 31, 0.45)"
@@ -60,9 +63,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Glasses}
+            emoji={Developer}
             heading={"Developer"}
-            detail={"JavaScript, MongoDB, Express, React, Node, Redux, Axios, JsonWebToken, API Request, MUI"}
+            detail={"JavaScript, MongoDB, Express, React, Node, Redux, Axios, JsonWebToken"}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
@@ -73,7 +76,7 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Humble}
+            emoji={UI}
             heading={"UI/UX"}
             detail={
               "Plesant-looking, functional and give users a fantastic experience in terms of performance and navigation"

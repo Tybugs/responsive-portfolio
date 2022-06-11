@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
 import "./intro.css";
 import Avatar from "../../img/avatar.svg";
-import glassesimoji from "../../img/glassesimoji.png";
-import thumbup from "../../img/thumbup.png";
-import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
+import Fb from "../../img/Facebook.png";
+import layers1 from "../../img/layers1.png";
+import layers2 from "../../img/layers2.png";
+import layers3 from "../../img/layers3.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -42,7 +42,7 @@ const Intro = () => {
         <div className="i-icons">
             <img src={Github} alt=""/>
           <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          <img src={Fb} alt="" />
         </div>
       </div>
       {/* right image side */}
@@ -55,7 +55,7 @@ const Intro = () => {
           initial={{ left: "-36%" }}
           whileInView={{ left: "-24%" }}
           transition={transition}
-          src={glassesimoji}
+          src={layers1}
           alt=""
         />
 
@@ -65,7 +65,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={layers2} text1="Web" text2="Developer" />
         </motion.div>
 
         {/* animation */}
@@ -76,7 +76,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design"  />
+          <FloatinDiv img={layers3} text1="Best Design"  />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

@@ -58,13 +58,13 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Node} alt="" />
+            <img src={RLogo} alt="" />
           </div>
           <div className="w-secCircle">
             <img src={Redux} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={RLogo} alt="" />
+            <img src={Node} alt="" />
           </div>{" "}
           <div className="w-secCircle">
             <img src={Git} alt="" />
