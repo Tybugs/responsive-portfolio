@@ -2,7 +2,7 @@
   padding: 0 3rem 0 3rem;
   display: flex;
   height: 90vh;
-  margin-top: 4rem;
+  margin-top: 2rem;
 
   /* scroll */
   align-items: center;
@@ -90,7 +90,7 @@
 }
 
 .w-secCircle > img {
-  transform: scale(0.6);
+  transform: scale(0.2);
 }
 
 .w-backCircle {

@@ -50,6 +50,7 @@ const Services = () => {
             emoji={HeartEmoji}
             heading={"Design"}
             detail={"Figma, Uizard, Sketch"}
+            color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
         {/* second card */}
@@ -62,6 +63,7 @@ const Services = () => {
             emoji={Glasses}
             heading={"Developer"}
             detail={"JavaScript, MongoDB, Express, React, Node, Redux, Axios, JsonWebToken, API Request, MUI"}
+            color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
         {/* 3rd */}

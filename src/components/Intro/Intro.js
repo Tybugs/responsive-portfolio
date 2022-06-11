@@ -40,7 +40,7 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
+            <img src={Github} alt=""/>
           <img src={LinkedIn} alt="" />
           <img src={Instagram} alt="" />
         </div>
